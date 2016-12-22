@@ -1,0 +1,101 @@
+/*Desktop/Laptop Viewport*/
+header{
+	height:358px;
+	background-image:url(images/WOSS-school-img.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: right;
+	color: #003078;
+}
+.btn{
+	margin-top:5px;
+}
+h1, h2{
+	padding: 12px 15px;
+	font-family: Palatino Linotype;
+	font-weight: bold;
+}
+#h2-pagetitle{
+	background-color: #003078;
+	color: #ffea00;
+	font-family: courier;
+}
+h4{
+	padding-top: 15px;
+}
+h5{
+	font-size: 110%;
+}
+ol{
+	font-size: 110%;
+}
+.list-group-item{
+	margin-top: 5px;
+}
+.jumbotron p{
+	font-size: 120%;
+}
+.column-1-content{
+	width: 49%;
+	float: left;
+	display: inline;
+	border-radius: 5px;
+	height: 903px;
+	overflow-y: auto;
+}
+.column-2-content{
+	width: 49%;
+	float: right;
+	border-radius: 5px;
+}
+.jumbotron{
+	background-color: #e2e2e2;
+	border-radius: 5px;
+	padding:5px;
+	margin:20px 1%;
+}
+#html-logo{
+	width:70px;
+	height:auto;
+}
+.progress-bar{
+	width:90%; 
+}
+.learning-logos{
+	width:auto;
+	height:100px;
+	margin:5px;
+}
+.content-three{
+	font-size: 90%;
+	padding:2px;
+}
+@media screen and (max-width: 450px){
+	.column-1-content,.column-2-content{
+		display: block;
+		width: 96%;
+		padding:5px;
+		margin-left:2%;
+		margin-right:2%;
+	}
+	header{
+		background-image: url(https://sites.google.com/a/hdsb.ca/white-oaks-secondary-school-technological-studies-department/_/rsrc/1389727668076/White-Oaks-Secondary-School-Information/WOSS%20Athletic%20Logo.jpg?height=376&width=400;)
+		background-color: #ffea00;
+		height:200px;
+	}
+	h1,h2{
+		font-size: 150%;
+		color:#ffea00;
+		text-shadow: 1px 1px black;
+	}
+	h2{
+		font-size: 140%;
+	}
+	.learning-logos{
+		width:28%;
+		height:auto;
+	}
+	p{
+		font-weight: bold;
+	}
+}
