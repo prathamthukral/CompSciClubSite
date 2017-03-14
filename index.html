@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="curriculumStyle.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body onload="scroller()">
 <header>
 	<h1 id="h1-pagetitle">WOSS Computer Science</h1>
 	<h2 id="h2-pagetitle">Learn to code</h2>
@@ -15,8 +15,8 @@
 	<div id="content content-one" class="jumbotron column-1-content" style="height:900px;overflow-y: scroll;">
 		<p>Completed:</p>
 		<div class="progress">
-  			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width:95%">
-    		95% of CSS
+  			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+    		100% of CSS!
   			</div>
 		</div>
 		<h3>Curriculum for <img id="html-logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="html logo"></h3>
@@ -76,10 +76,20 @@
 					<li><a href="https://docs.google.com/a/hdsb.ca/document/d/1hm7YehK0SYPheUpeShpZQfLVK8owKO1dNwSBj555lgc/edit?usp=sharing">Example Code</a></li>
 				</ul>
 			</li>
-			<li class="list-group-item active" style="background-color: #efae3d;">Week 4:
+			<li class="list-group-item" style="background-color: #efae3d;">Week 4:
 				<ul>
 					<li>CSS Final week</li>
 					<li><a href="https://docs.google.com/a/hdsb.ca/document/d/1BOEr4pUWqZ4BwSjyfonclxQSyFx0c2U_KRc92D_SaRs/edit?usp=sharing"><button type="button" target="_new" class="btn btn-info">Final Challenge HTML</button></a></li>
+				</ul>
+			</li>
+			<li class="list-group-item active" id="active-list" style="background-color: #496ed8;">Tu20 Information!:
+				<ul>
+					<li><a href="http://techundertwenty.com" target="_new"><button type="button" target="_new" class="btn btn-success">TU20 Website</button></a></li>
+					<li><a href="http://www.siliconhalton.com" target="_new"><button type="button" target="_new" class="btn btn-success">Silicon Halton Website</button></a></li>
+					<li><a href="http://www.upwork.com" target="_new"><button type="button" target="_new" class="btn btn-success">Upwork Website (for jobs!)</button></a></li>
+					<li><a href="http://www.codeacademy.com" target="_new"><button type="button" target="_new" class="btn btn-success">Code Academy</button></a></li>
+					<li><a href="https://templated.co/" target="_new"><button type="button" target="_new" class="btn btn-success">Template.co (website templates)</button></a></li>
+					<li><a href="https://www.dropbox.com/s/u5ze2q5inbz2b4s/TechTonic2017.pptx?dl=0" target="_new"><button type="button" target="_new" class="btn btn-success">Full Tech Tonic Slideshow</button></a></li>
 				</ul>
 			</li>
 		</ol>
@@ -88,10 +98,12 @@
 		<div id="content content-two" class="jumbotron">
 			<h3>About the club!</h3>
 			<p>We will meet every Tuesday (from 3-4pm in room T119). We are going to learn about an array of different languages used to create website, games, and more. Also we will prepare for the Waterloo Computing Contests! All skill levels invited!</p>
+			
+			<!--<a href="https://goo.gl/forms/gTpROsj9WkfOaYH13" target="_new"><button class="btn btn-danger">Survey</button></a>-->
+			
 			<a target="_new" href="https://codepen.io/signup/free"><button type="button" class="btn btn-info">Codepen Sign Up</button></a>
 			<a target="_new" href="https://www.sublimetext.com/3"><button type="button" class="btn btn-info">OR Sublime Download</button></a>
 			<a href="http://www.techundertwenty.com" target="_new"><button class="btn btn-warning">TU20 Website</button></a>
-			<p>Also be sure to check our facebook page, coming soon!</p>
 			
 		</div>
 		<div id="content content-three" class="jumbotron">
@@ -117,8 +129,14 @@
 	</div>
 </div>
 
-<script type="text/javascript">
-	alert("DECEMBER 20th COMP SCI MEETING IS REALLY IMPORTANT! We will have a guest speaker coming in and then we will do some fun activities!")
+
+
+<script>
+	function scroller(){
+		document.getElementById('active-list').scrollIntoView();
+	// 	alert("Remember that Feb 21, we will resume Computer Science Club!")
+	}
 </script>
+
 </body>
 </html>
