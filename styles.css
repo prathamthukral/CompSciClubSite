@@ -1,0 +1,170 @@
+body{
+	background-image: url("images/announcementboard.jpg");
+	background-repeat: no-repeat
+}
+
+.container{
+	margin-top: 20px;
+	width:90%
+}
+#top-banner{
+	/*border:1px solid gray;*/
+	border-radius: 5px;
+	padding:10px 5px ;
+	border-width: 3px;
+	height:100px;
+	margin-bottom: 10px;55,255,0.8);*/
+}
+#woss-caption{
+	display: inline;
+	float: left;
+	margin-right: 30px;
+	padding-left: 10px;
+}
+#schoolLogo{
+	width:auto;
+	height:83px;
+}
+#date{
+	display: inline;
+	float: right;
+	padding-right: 10px;
+}
+
+.navbar{
+	height:5%;
+	color: white;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+#announcements,#content,#weather{
+	/*border:3px solid gray;*/
+	border-radius: 5px;
+	width:53%;
+	height:250px;
+	float: left;
+	padding:10px;
+	margin-bottom: 10px;55,255,0.9);*/
+}
+#content{
+	height:350px;
+}
+#announcements{
+	padding:15px;
+	height:250px;
+	display: block;
+	width: 100%;
+}
+#weather{
+	height: 350px;
+	float: right;
+	width: 45%;
+}
+h2{
+	font-style: bold;
+	font-size: 30px;
+	display: inline;
+}
+h2:nth-child(2){
+	margin-left: 220px;
+}
+#forecast_embed{
+	width: 100%;
+	height: 350px;
+	float: right;
+	color:#003078;
+}
+footer{
+	/*border: 3px solid gray;*/
+	width: 97%;
+	position: fixed;
+	bottom: 0px;
+	border-radius: 5px;
+	height: 100px;
+	margin-bottom: 50px;55,255,0.8);*/
+	margin-left: -110px;
+}
+.fe_alert a{
+	display: none;
+}
+.fe_container .fe_currently .fe_wind{
+	display: none;
+}
+
+#announcement-frame{
+	width: 100%;
+	height: 100%;
+}
+
+.hide {
+	display:none;
+}
+
+#ann-pages{
+	margin: auto;
+	height: 100%;
+	width:100%;
+	display: none;
+}
+
+#ann-pages p{
+	font-size: 29px;
+}
+
+#time{
+    position: absolute;
+    float: left;
+    margin-left: 29.7%;
+    margin-top: 11%;
+}
+
+#datepicker{
+	text-align: center;
+	padding-top: 3px;
+}
+
+/*Version 2.0*/
+div{
+	display: inline;
+}
+.tbl-col: nth-child(1){
+	float:left;
+}
+.tbl-col{
+	display: block;
+}
+
+#weather{
+	position:absolute;
+	float: left;
+	width:25%;
+	height:355px;
+	margin-left: 1.31%;
+	margin-top: -48px;
+	overflow-y: hidden;
+}
+#weather .location{
+	display: none;
+}
+
+#content {
+    width:36%;
+    position: absolute;
+    float: left;
+    margin-top: 311px;
+    margin-left: 1.31%;
+}
+#announcements {
+    position: absolute;
+    background-color: rgba(255,255,255,0);
+    float: right;
+    width: 53%;
+    margin-left: 642px;
+    margin-top: 90px;
+    height: 463px;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+.aud{
+	border:4pxsolid black;
+}
